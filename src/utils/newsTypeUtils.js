@@ -1,0 +1,34 @@
+export default [
+  {
+    name:"热点",
+    value:1
+  },
+  {
+    name:"教育",
+    value:2
+  },
+  {
+    name:"搞笑",
+    value:3
+  },
+  {
+    name:"科技",
+    value:4
+  },
+  {
+    name:"娱乐",
+    value:5
+  },
+  {
+    name:"体育",
+    value:6
+  },
+  {
+    name:"财经",
+    value:7
+  },
+  {
+    name:"汽车",
+    value:8
+  },
+]

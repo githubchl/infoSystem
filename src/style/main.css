@@ -1,0 +1,52 @@
+.single-page-con {
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  position: absolute;
+  background: #F0F0F0;
+}
+.single-page-con .form-div {
+  width: 60%;
+  margin-left: 20%;
+}
+.single-page-con .page-controller {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.logo-con {
+  padding: 8px;
+  text-align: left;
+}
+.logo-con img {
+  height: 44px;
+  width: auto;
+}
+
+.sidebar-menu-con {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 21;
+  transition: width .3s;
+  background: #495060;
+}
+
+.bottom-info-div {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.bottom-info-div span {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
