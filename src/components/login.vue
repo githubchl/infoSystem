@@ -70,8 +70,15 @@
             let loginData = {
               userName: this.form.userName,
               password: this.form.password
-            }
-            this.$post(urlObj.loginUrl, loginData)
+            };
+
+            Cookies.set('account_name', this.form.userName, {expires: 7});//cookie保存7天
+            sessionStorage.setItem('account_name',this.form.userName);
+            this.$router.replace({
+              name:"home"
+            });
+
+            /*this.$post(urlObj.loginUrl, loginData)
               .then((res) => {
                 const errno = res.errno;
                 if (errno==0){
@@ -87,7 +94,7 @@
               }).catch((err => {
               this.showError = true;
               this.tips = "请求服务器失败";
-            }));
+            }));*/
           } else {
             console.log("失败")
           }
